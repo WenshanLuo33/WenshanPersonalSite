@@ -1,0 +1,199 @@
+  
+  .nav-title:hover {
+    text-decoration: underline;
+  }
+  #map {
+    width: 70%;
+    height: 500px;
+    margin: 5em auto;
+  }
+
+/* 📌 导航栏样式 */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+/* 📌 让导航栏不遮挡内容 */
+body {
+  padding-top: 50px; /* 避免内容被导航栏挡住 */
+}
+
+/* 让所有内容居中 */
+main {
+  text-align: center;
+}
+
+/* 📌 让项目滚动进入 */
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 📌 让项目图片适应大小 */
+.project-thumbnail {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+/* 📌 让项目部分有足够的间距 */
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+
+/* 📌 导航栏样式 */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+/* 📌 About 页面样式 */
+#about {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 20px;
+  text-align: left;
+}
+
+#about h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.about-content strong {
+  font-weight: bold;
+  color: #222;
+}
+
+.about-content em {
+  font-style: italic;
+  color: #444;
+}
+
+/* 页脚样式 */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+
+/* 📌 让项目详情居中 */
+.project-detail {
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 20px;
+  text-align: left;
+}
+
+/* 📌 主要标题 */
+.project-detail h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #222;
+}
+
+/* 📌 副标题 */
+.project-detail .subtitle {
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* 📌 项目图片样式 */
+.project-image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* 📌 文字描述 */
+.project-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* 📌 让强调文字更明显 */
+.project-description strong {
+  font-weight: bold;
+  color: #222;
+}
+
+.project-description em {
+  font-style: italic;
+  color: #555;
+}
